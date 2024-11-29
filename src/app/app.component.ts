@@ -4,7 +4,6 @@ import { IGX_NAVBAR_DIRECTIVES, IgxAvatarComponent, IgxButtonDirective, IgxOverl
 
 @Component({
   selector: 'app-root',
-  standalone: true,
   imports: [RouterLink, RouterOutlet, IGX_NAVBAR_DIRECTIVES, IgxAvatarComponent, IgxButtonDirective, IgxOverlayOutletDirective, IgxRippleDirective, IgxToggleActionDirective, IgxToggleDirective],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
