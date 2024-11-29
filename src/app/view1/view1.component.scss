@@ -1,11 +1,9 @@
-.row-layout {
+:host {
+  height: 100%;
   display: flex;
-}
-.view-1-container {
   justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
-  height: 100%;
 }
 .column-layout {
   display: flex;
